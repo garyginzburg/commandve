@@ -40,7 +40,7 @@ exports.updateGist = function(snippet, callbackSuccess,callbackError, isNew){
   console.log("create gist", isNew);
     var user = snippet.user;
     var data = createGitHubUpdateData(snippet);
-    var options = getUpdateGitHubMap(user, data, snippet, isNew);
+    var options = exports.getUpdateGitHubMap(user, data, snippet, isNew);
     var onGistSuccess = function(){
       callbackSuccess(data);
     };

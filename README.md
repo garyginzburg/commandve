@@ -15,7 +15,7 @@ In order to create a  new snippet, simply copy some text, hover over the folder 
 To edit the title and see the created snippets, click on the folder.
 
 
-##Usage Instructions:
+##Service Step-by-step Instructions:
 
 1. Login with you Githib account. If you already have saved Github Gists, you will them in your Github folder.
 2. In order to create a new snippet, simply copy some text, hover over the folder and press CMD+V (CTRL+V on Windows). You can also install a Chrome extension or a Sublime plugin, which adds shortcuts to send a snippet of text straight to you account without the need to visit this website.

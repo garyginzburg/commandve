@@ -11,7 +11,15 @@ angular.module('cmndvninja').factory('User', ['$resource', function($resource){
 
 
 angular.module('cmndvninja').factory('Shared', [function($resource){
-    return {};
+    return {
+       getIndexBy : function (array, name, value) {
+                      for (var i = 0; i < array.length; i++) {
+                        if (array[i][name] == value) {
+                          return i;
+                        }
+                      }
+                    }
+    };
 }]);
 
 angular.module('cmndvninja').factory('Snippet', ['$resource', function($resource){

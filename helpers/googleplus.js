@@ -5,7 +5,7 @@ var google = require('googleapis'),
     url = null,
     oauth2Client = null,
     OAuth2 = google.auth.OAuth2;
-  ;
+
 
 
 // generate a url that asks permissions for Google+ and Google Calendar scopes
@@ -24,7 +24,7 @@ exports.setRedirectURL = function(config){
   });
   console.log("set google redirect", url);
   return url;
-}
+};
 
 exports.setTokens = function(tokens){
   oauth2Client.setCredentials(tokens);
